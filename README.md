@@ -154,13 +154,33 @@ Fixes
 ### Data Modeling 🏛 
 
 - a one-to-many active relationship was established between the calendar table and the data table 
+![Schema](https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/5e13ba670d1fef8f97a8643586e15cbc5a55f74e/data-model.png)
 
   <a name="visualization"/>
 ### Data Visualization 🎨
 
 - Power BI magic!✨ The report pbix file is available in this repo to explore design decisions
+  The following DAX measures were used:
+  
+```
+Count of Accidents = DISTINCTCOUNT(Data[Accident_Index])
 
+Current Year Accident Count = TOTALYTD(COUNT(Data[Accident_Index]),'Calendar'[Date])
+
+Current Year Casualties = TOTALYTD(SUM(Data[Number_of_Casualties]),'Calendar'[Date])
+
+Previous Year Accident Counts = CALCULATE(COUNT(Data[Accident_Index]), SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+Previous Year Casualties = CALCULATE(SUM(Data[Number_of_Casualties]),
+SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+YoY Accident Count = DIVIDE([Current Year Accident Count] - [Previous Year Accident Counts], [Previous Year Accident Counts])
+
+YoY Casualties = (DIVIDE([Current Year Casualties] - [Previous Year Casualties],[Previous Year Casualties]))
+```
+  
   <a name="insights"/>
+  
 ### Deriving Insights
 
 - The vehicle type most involved in accidents was cars. This can be explained by the fact that most vehicles plying UK roads are cars

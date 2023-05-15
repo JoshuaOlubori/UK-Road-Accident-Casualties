@@ -15,7 +15,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/JoshuaOlubori/sql-employee-analysis-a/blob/698fb9fe82c62ece6efcbfacfd0b0da29204812a/LICENSE.txt
+[license-url]: https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/f47c7d604613183d31617d101d14ef5c96503f1d/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/joshua-edun
 

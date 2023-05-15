@@ -54,9 +54,9 @@
   
 ## About The Project 🍪 
 
-![Dashboard](https://github.com/JoshuaOlubori/sql-employee-analysis-a/blob/ddfa9521399eadd8cea5f425101dffd880edaa39/dashboard.PNG)
+![Dashboard](https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/ddb49a64610e84d36ded41d2096050e7a2f3c183/report.png)
 
-Tracking Accidents and Casualties across UK Roads in 2012
+Tracking Accidents and Casualties across UK Roads in 2021 - 2022
 <a name="requirement"/>
 ### Requirement Gathering
 
@@ -175,8 +175,6 @@ Fixes
 ## Contact
 
 Edun Joshua Olubori - [connect on linkedin](https://www.linkedin.com/in/joshua-edun) - joshuaolubori@gmail.com
-
-Project Link: [Check out the dashboard](https://joshuaolubori.my.canva.site/project-00k1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

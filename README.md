@@ -136,7 +136,7 @@ Issues
 
 - Instances where "Fatal" is misspelled as "Fetal" in Accident_Severity column
 
-- "Time" columnwas represented as a datetime data type in Power BI
+- "Time" column was represented as a datetime data type in Power BI
 
 Fixes
 - Used the Replace Values feature to correct the misspellings of Issues 1 & 2

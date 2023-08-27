@@ -55,6 +55,7 @@
 ## About The Project 🍪 
 
 ![Dashboard](https://github.com/JoshuaOlubori/UK-Road-Accident-Casualties/blob/ddb49a64610e84d36ded41d2096050e7a2f3c183/report.png)
+Live Demo: [here](https://app.powerbi.com/view?r=eyJrIjoiYjZiNDYwMTctY2EwOC00NGQ2LWJmOGEtMzVlN2I2YTFlZTEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 Tracking Accidents and Casualties across UK Roads in 2021 - 2022
 <a name="requirement"/>
@@ -195,6 +196,8 @@ YoY Casualties = (DIVIDE([Current Year Casualties] - [Previous Year Casualties],
 ## Contact
 
 Edun Joshua Olubori - [connect on linkedin](https://www.linkedin.com/in/joshua-edun) - joshuaolubori@gmail.com
+
+Live Demo: [Check out the report](https://app.powerbi.com/view?r=eyJrIjoiYjZiNDYwMTctY2EwOC00NGQ2LWJmOGEtMzVlN2I2YTFlZTEwIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
